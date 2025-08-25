@@ -1,0 +1,81 @@
+.tex{
+    text-align: center;
+    font-size: 32px;
+    color: #173A56;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    max-width: 850px;
+   width: 100%;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.card{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}           
+.card img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.card h4{
+    font-size: 20px;
+    color: #173A56;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 16px;
+    color: #5A7184;
+    line-height: 1.5;
+}
+.buton{
+    background-color: #02897A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buton:hover{
+    background-color: #af0707;
+    transition: 0.4s;
+}   
+
+
+@media (max-width: 768px) {
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        max-width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .tex{
+        font-size: 24px;
+        padding: 0 10px;
+    }
+}
+@media (max-width: 360px) {
+    .tex{
+        font-size: 20px;
+    }
+}
+
